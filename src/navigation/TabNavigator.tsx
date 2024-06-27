@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image} from 'react-native';
+import { useTranslation } from 'react-i18next';
 
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
@@ -9,7 +10,8 @@ import {appColors} from '../helpers/colors';
 
 const Tab = createBottomTabNavigator();
 
-const TabNavigator = () => {
+const TabNavigator: React.FC = () => {
+  const {t} = useTranslation();
   return (
     <Tab.Navigator
       initialRouteName="Apps"
@@ -38,7 +40,7 @@ const TabNavigator = () => {
       })}>
       <Tab.Screen name="Apps" component={HomeScreen} />
       <Tab.Screen
-        options={{headerShown: false}}
+        options={{headerShown: false, tabBarLabel:t('tabs.profile')}}
         name="Profile"
         component={ProfileScreen}
       />

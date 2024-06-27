@@ -4,6 +4,7 @@ import Navigation from './src/navigation/Navigation';
 import {Provider} from 'react-redux';
 import store, {persistor} from './src/redux/store';
 import {PersistGate} from 'redux-persist/integration/react';
+import "./src/core/localization/i18n.ts";
 
 // import {
 //   Colors,
