@@ -1,4 +1,4 @@
-package com.mircosuper;
+package com.miraccumbur.mircosuper;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

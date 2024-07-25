@@ -1,4 +1,4 @@
-package com.mircosuper.newarchitecture;
+package com.miraccumbur.mircosuper.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,7 +19,7 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.mircosuper.BuildConfig;
+import com.miraccumbur.mircosuper.BuildConfig;
 import com.mircosuper.newarchitecture.components.MainComponentsRegistry;
 import com.mircosuper.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
