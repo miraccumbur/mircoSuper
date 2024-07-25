@@ -2,7 +2,7 @@ import React, {PropsWithChildren} from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import TabNavigator from './TabNavigator';
-import ToDoListScreen from '../screens/ToDoListScreen';
+import ToDoListScreen from '../screens/ToDoList/ToDoListScreen';
 
 const Stack = createNativeStackNavigator();
 

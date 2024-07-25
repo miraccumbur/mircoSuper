@@ -7,8 +7,8 @@ import {
   Text,
 } from 'react-native';
 import React, {type PropsWithChildren} from 'react';
-import FooterBottomMargin from '../components/FooterBottomMargin';
-import {appColors} from '../helpers/colors';
+import FooterBottomMargin from '../../components/FooterBottomMargin';
+import {appColors} from '../../helpers/colors';
 // import {useNavigation} from '@react-navigation/native';
 // import {useNavigation, useRoute} from '@react-navigation/native';
 
@@ -26,7 +26,7 @@ const ProfileScreen: React.FC<PropsWithChildren<{}>> = () => {
         <View style={styles.photoAndNameView}>
           <Image
             style={styles.userImage}
-            source={require('../assets/images/User/user.png')}
+            source={require('../../assets/images/User/user.png')}
           />
           <View>
             <Text style={styles.titleBigText}>Miraç Cumbur</Text>

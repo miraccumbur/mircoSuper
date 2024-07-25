@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next';
 
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-import ProfileScreen from '../screens/ProfileScreen';
-import HomeScreen from '../screens/HomeScreen';
+import ProfileScreen from '../screens/Profile/ProfileScreen';
+import HomeScreen from '../screens/Home/HomeScreen';
 import {appColors} from '../helpers/colors';
 
 const Tab = createBottomTabNavigator();

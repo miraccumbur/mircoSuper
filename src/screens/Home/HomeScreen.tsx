@@ -1,8 +1,8 @@
 import {SafeAreaView, StyleSheet, ScrollView, View} from 'react-native';
 import React, {type PropsWithChildren} from 'react';
 import {NavigationProp, useNavigation} from '@react-navigation/native';
-import {appColors} from '../helpers/colors';
-import AppButton from '../components/AppButton';
+import {appColors} from '../../helpers/colors';
+import AppButton from '../../components/AppButton';
 
 const HomeScreen: React.FC<PropsWithChildren<{}>> = () => {
   const navigation: NavigationProp<ReactNavigation.RootParamList> =
@@ -19,7 +19,7 @@ const HomeScreen: React.FC<PropsWithChildren<{}>> = () => {
           <AppButton
             text="To Do List"
             onPress={() => navigation.navigate('ToDoList' as never)}
-            image={require('../assets/images/ToDoList/checklist.png')}
+            image={require('../../assets/images/ToDoList/checklist.png')}
             color={appColors.unbleachedSilk}
           />
         </View>

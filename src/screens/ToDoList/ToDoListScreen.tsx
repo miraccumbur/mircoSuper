@@ -1,6 +1,6 @@
 import {Text, SafeAreaView, StyleSheet, View} from 'react-native';
 import React from 'react';
-import {appColors} from '../helpers/colors';
+import {appColors} from '../../helpers/colors';
 
 import { useTranslation } from 'react-i18next';
 
