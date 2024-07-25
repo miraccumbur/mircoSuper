@@ -6,7 +6,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import ProfileScreen from '../screens/Profile/ProfileScreen';
 import HomeScreen from '../screens/Home/HomeScreen';
-import {appColors} from '../helpers/colors';
+import { appColors } from '../constants/Colors';
 
 const Tab = createBottomTabNavigator();
 
@@ -36,7 +36,7 @@ const TabNavigator: React.FC = () => {
             );
           }
         },
-        tabBarActiveTintColor: appColors.purple,
+        tabBarActiveTintColor: appColors.tint,
       })}>
       <Tab.Screen name="Apps" component={HomeScreen} />
       <Tab.Screen

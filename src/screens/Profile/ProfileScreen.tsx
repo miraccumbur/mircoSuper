@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import React, {type PropsWithChildren} from 'react';
 import FooterBottomMargin from '../../components/FooterBottomMargin';
-import {appColors} from '../../helpers/colors';
+import { appColors } from '../../constants/Colors';
 // import {useNavigation} from '@react-navigation/native';
 // import {useNavigation, useRoute} from '@react-navigation/native';
 

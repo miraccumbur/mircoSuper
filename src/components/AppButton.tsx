@@ -37,7 +37,7 @@ const AppButton: React.FC<
 const styles = StyleSheet.create({
   container: {
     width: '49.5%',
-    height: 75,
+    height: 100,
     borderRadius: 15,
     paddingVertical: '1%',
     paddingHorizontal: '1%',
@@ -45,13 +45,13 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   text: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: '700',
     flex: 1,
   },
   image: {
-    width: 40,
-    height: 40,
+    width: 50,
+    height: 50,
     marginRight: 5,
   },
 });

@@ -1,10 +1,4 @@
-const appColors = {
-  black: '#000000',
-  gray1: '#bbbbbb',
-  white: '#ffffff',
-  purple: '#270067',
-  unbleachedSilk: '#FCD5CE',
-};
+import { appColors } from "../constants/Colors";
 
 function pickTextColorBasedOnBgColorAdvanced(bgColor: string) {
   const lightColor = appColors.white;
@@ -24,4 +18,4 @@ function pickTextColorBasedOnBgColorAdvanced(bgColor: string) {
   return L > 0.179 ? darkColor : lightColor;
 }
 
-export {appColors, pickTextColorBasedOnBgColorAdvanced};
+export {pickTextColorBasedOnBgColorAdvanced};
