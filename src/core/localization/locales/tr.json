@@ -2,5 +2,9 @@
     "tabs": {
         "apps": "Uygulamalar",
         "profile": "Profilim"
+    },
+    "myToDo": {
+        "title": "Yapılacaklar",
+        "newButton": "Yeni"
     }
 }

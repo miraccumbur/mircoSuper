@@ -1,24 +1,29 @@
 import {Text, SafeAreaView, StyleSheet, View, Image, TouchableOpacity} from 'react-native';
-import React from 'react';
+import React, { useState } from 'react';
 
 import {useTranslation} from 'react-i18next';
 import {appColors} from '../../constants/Colors';
+import Tabs from './components/Tabs';
+import { IMyToDoTab } from '../../types/myToDo';
 
 const ToDoListScreen: React.FC = () => {
   const {t} = useTranslation();
+  const [tab,setTab] = useState<IMyToDoTab>()
   return (
     <SafeAreaView style={styles.safeAreaContainer}>
       <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>My To Do</Text>
+        <Text style={styles.title}>{t('myToDo.title')}</Text>
         <TouchableOpacity style={styles.newButton}>
-          <Text style={styles.newButtonText}>New</Text>
+          <Text style={styles.newButtonText}>{t('myToDo.newButton')}</Text>
           <Image
             style={styles.newButtonImage}
             source={require('../../assets/images/plus.png')}
           />
         </TouchableOpacity>
       </View>
+{/* redux state oluştur persist olarak */}
+      <Tabs />
       </View>
     </SafeAreaView>
   );
@@ -40,6 +45,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    marginBottom: 10
   },
   title: {
     fontSize: 24,
