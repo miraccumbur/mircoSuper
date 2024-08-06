@@ -1,17 +1,21 @@
 import {combineReducers, configureStore} from '@reduxjs/toolkit';
 import {persistStore, persistReducer} from 'redux-persist';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import toDoListReducer from './toDoListReducer';
+import myToDoListReducer from './MyToDo/myToDoListReducer';
+import myToDoTabReducer from './MyToDo/myToDoTabReducer';
+import myToDoTabListReducer from './MyToDo/myToDoTabListReducer';
 
 const rootReducer = combineReducers({
   // add other reducers here
-  toDoList: toDoListReducer,
+  myToDoList: myToDoListReducer,
+  myToDoTab: myToDoTabReducer,
+  myToDoTabList: myToDoTabListReducer
 });
 
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage, // or another storage engine
-  whitelist: ['/* put the reducers you want to persist here */'],
+  whitelist: ['myToDoTab','myToDoTabList'],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

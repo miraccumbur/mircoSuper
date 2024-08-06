@@ -1,6 +1,6 @@
 interface IMyToDoTab {
-    id:number;
-    text:string;
+  id: string;
+  text: string;
 }
 
-export type {IMyToDoTab}
+export type {IMyToDoTab};

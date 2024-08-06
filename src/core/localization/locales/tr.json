@@ -1,10 +1,15 @@
 {
+  "tabs": {
+    "apps": "Uygulamalar",
+    "profile": "Profilim"
+  },
+  "myToDo": {
+    "title": "Yapılacaklar",
+    "newButton": "Yeni",
     "tabs": {
-        "apps": "Uygulamalar",
-        "profile": "Profilim"
-    },
-    "myToDo": {
-        "title": "Yapılacaklar",
-        "newButton": "Yeni"
+      "all": "Tümü",
+      "createNewTabText": "Şu anda yeni bir sekme oluşturuyorsun. Lütfen aşağıdaki metin alanına oluşturacağın sekmenin ismini gir.",
+      "createNewTabPlaceholder": "Sekme Adı"
     }
+  }
 }

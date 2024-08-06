@@ -7,7 +7,6 @@ import { appColors } from '../../constants/Colors';
 const HomeScreen: React.FC<PropsWithChildren<{}>> = () => {
   const navigation: NavigationProp<ReactNavigation.RootParamList> =
     useNavigation();
-  // const route: RouteProp<ParamListBase> = useRoute();
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView

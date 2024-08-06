@@ -1565,6 +1565,11 @@
   resolved "https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.3.tgz"
   integrity sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==
 
+"@types/uuid@^10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-10.0.0.tgz#e9c07fe50da0f53dc24970cca94d619ff03f6f6d"
+  integrity sha512-7gqG38EyHgyP1S+7+xomFtL+ZNHcKv6DwNaCZmJmo1vgMugyF3TCnXVg4t1uk89mLNwnLtnY3TpOpCOyp1/xHQ==
+
 "@types/yargs-parser@*":
   version "21.0.2"
   resolved "https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-21.0.2.tgz"
@@ -6187,6 +6192,11 @@ react-native-screens@^3.27.0:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
 
+react-native-uuid@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-uuid/-/react-native-uuid-2.0.2.tgz#3da192e342ef35ee95a7def676ab41c1256dfd66"
+  integrity sha512-5ypj/hV58P+6VREdjkW0EudSibsH3WdqDERoHKnD9syFWjF+NfRWWrJb2sa3LIwI5zpzMvUiabs+DX40WHpEMw==
+
 react-native@0.70.10:
   version "0.70.10"
   resolved "https://registry.npmjs.org/react-native/-/react-native-0.70.10.tgz"
@@ -7470,6 +7480,11 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
+
+uuid@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-10.0.0.tgz#5a95aa454e6e002725c79055fd42aaba30ca6294"
+  integrity sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==
 
 uuid@^8.3.0:
   version "8.3.2"

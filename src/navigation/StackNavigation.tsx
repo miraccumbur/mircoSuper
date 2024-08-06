@@ -2,7 +2,7 @@ import React, {PropsWithChildren} from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import TabNavigator from './TabNavigator';
-import ToDoListScreen from '../screens/MyToDo/MyToDoScreen';
+import { MyToDoNavigation } from './MyToDoNavigation';
 
 const Stack = createNativeStackNavigator();
 
@@ -16,7 +16,7 @@ const StackNavigation: React.FC<PropsWithChildren<{}>> = () => {
       <Stack.Screen name="Tabs" component={TabNavigator} />
       <Stack.Screen
         name="MyToDo"
-        component={ToDoListScreen}
+        component={MyToDoNavigation}
         options={{presentation: 'modal'}}
       />
     </Stack.Navigator>

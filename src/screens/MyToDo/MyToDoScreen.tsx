@@ -4,11 +4,10 @@ import React, { useState } from 'react';
 import {useTranslation} from 'react-i18next';
 import {appColors} from '../../constants/Colors';
 import Tabs from './components/Tabs';
-import { IMyToDoTab } from '../../types/myToDo';
 
 const ToDoListScreen: React.FC = () => {
   const {t} = useTranslation();
-  const [tab,setTab] = useState<IMyToDoTab>()
+
   return (
     <SafeAreaView style={styles.safeAreaContainer}>
       <View style={styles.container}>
@@ -22,7 +21,6 @@ const ToDoListScreen: React.FC = () => {
           />
         </TouchableOpacity>
       </View>
-{/* redux state oluştur persist olarak */}
       <Tabs />
       </View>
     </SafeAreaView>
