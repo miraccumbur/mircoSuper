@@ -8,8 +8,10 @@
     "newButton": "New",
     "tabs": {
       "all": "All",
-      "createNewTabText": "You are currently creating a new tab. Please enter the name of the tab you will create in the text input field below.",
-      "createNewTabPlaceholder": "Tab Name"
+      "title": "My To Do Tab",
+      "placeholder": "Tab Name",
+      "newButton": "New",
+      "newTabBaseText": "Tab"
     }
   }
 }

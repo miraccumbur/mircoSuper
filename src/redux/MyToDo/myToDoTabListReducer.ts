@@ -9,18 +9,6 @@ const initialState: Array<IMyToDoTab> = [
     id: 'all',
     text: i18n.t('myToDo.tabs.all'),
   },
-  {
-    id: uuid.v4().toString(),
-    text: '1.',
-  },
-  {
-    id: uuid.v4().toString(),
-    text: '2.',
-  },
-  {
-    id: uuid.v4().toString(),
-    text: '3.',
-  },
 ];
 
 const myToDoTabListReducer = createSlice({
@@ -30,9 +18,20 @@ const myToDoTabListReducer = createSlice({
     setNewTab(state, action: PayloadAction<IMyToDoTab>) {
       state.push(action.payload);
     },
+    updateTabs(state, action: PayloadAction<Array<IMyToDoTab>>) {
+      return action.payload;
+    },
+    updateTab(state, action: PayloadAction<IMyToDoTab>) {
+      state = state.map(s => (s.id === action.payload.id ? action.payload : s));
+      return state;
+    },
+    setReset() {
+      return initialState;
+    },
   },
 });
 
-export const {} = myToDoTabListReducer.actions;
+export const {setNewTab, updateTabs, updateTab, setReset} =
+  myToDoTabListReducer.actions;
 export const toDoList = (state: AppState) => state.myToDoTabList;
 export default myToDoTabListReducer.reducer;

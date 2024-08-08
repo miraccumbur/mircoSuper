@@ -8,8 +8,10 @@
     "newButton": "Yeni",
     "tabs": {
       "all": "Tümü",
-      "createNewTabText": "Şu anda yeni bir sekme oluşturuyorsun. Lütfen aşağıdaki metin alanına oluşturacağın sekmenin ismini gir.",
-      "createNewTabPlaceholder": "Sekme Adı"
+      "title": "Yapılacaklar Sekmelerim",
+      "placeholder": "Sekme Adı",
+      "newButton": "Yeni",
+            "newTabBaseText": "Sekme"
     }
   }
 }

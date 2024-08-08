@@ -73,8 +73,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   scrollView: {
-    maxWidth: '90%',
-    width: '100%',
     maxHeight: 25,
     alignSelf: 'center',
   },
@@ -103,6 +101,7 @@ const styles = StyleSheet.create({
     backgroundColor: appColors.purple.c7,
     justifyContent: 'center',
     alignItems: 'center',
+    marginLeft: 2
   },
   newTabImg: {
     tintColor: appColors.purple.c1,
