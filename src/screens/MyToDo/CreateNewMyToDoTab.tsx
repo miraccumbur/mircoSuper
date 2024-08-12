@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontSize: 24,
+    fontSize: 32,
     color: appColors.purple.c1,
     fontWeight: 'bold',
     textTransform: 'uppercase',

@@ -29,7 +29,7 @@ const Tabs: React.FC<PropsWithChildren<{}>> = () => {
   };
 
   const handleCreateNewTabPress: () => void = () => {
-    navigation.navigate('CreateNewMyToDoTab' as never)
+    navigation.navigate('CreateNewMyToDoTab' as never);
   };
 
   return (
@@ -81,6 +81,8 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2,
     borderBottomColor: appColors.purple.c6,
     minWidth: 30,
+    paddingBottom: 1,
+    paddingHorizontal: 5,
   },
   buttonText: {
     fontWeight: 'bold',
@@ -101,7 +103,7 @@ const styles = StyleSheet.create({
     backgroundColor: appColors.purple.c7,
     justifyContent: 'center',
     alignItems: 'center',
-    marginLeft: 2
+    marginLeft: 3,
   },
   newTabImg: {
     tintColor: appColors.purple.c1,

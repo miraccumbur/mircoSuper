@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     marginBottom: 10
   },
   title: {
-    fontSize: 24,
+    fontSize: 32,
     fontWeight: 'bold',
     color: appColors.purple.c1,
   },
@@ -55,9 +55,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     paddingVertical: 3,
-    paddingHorizontal: 20,
+    paddingHorizontal: 25,
     borderRadius: 100,
-    height: 30,
+    height: 36,
   },
   newButtonText: {
     color: appColors.purple.c1,
